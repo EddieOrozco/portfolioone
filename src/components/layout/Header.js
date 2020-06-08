@@ -2,19 +2,19 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <header id='header' class='fixed-top'>
-      <div class='container d-flex'>
-        <div class='logo mr-auto'>
-          <h1 class='text-light'>
+    <header id='header' className='fixed-top'>
+      <div className='container d-flex'>
+        <div className='logo mr-auto'>
+          <h1 className='text-light'>
             <a href='index.html'>Eduardo</a>
           </h1>
           {/* <!-- Uncomment below if you prefer to use an image logo --> */}
-          {/* <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>--> */}
+          {/* <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" className="img-fluid"></a>--> */}
         </div>
 
-        <nav class='nav-menu d-none d-lg-block'>
+        <nav className='nav-menu d-none d-lg-block'>
           <ul>
-            <li class='active'>
+            <li className='active'>
               <a href='#hero'>Home</a>
             </li>
             <li>
