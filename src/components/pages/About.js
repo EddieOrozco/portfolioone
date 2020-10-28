@@ -17,7 +17,7 @@ export default function About() {
             />
           </div>
           <div className='col-xl-6 col-lg-5 pt-5 pt-lg-0'>
-            <h3 data-aos='fade-up'>Thanks! For viewing my page.</h3>
+            <h3 data-aos='fade-up'>Who am I?</h3>
             <p data-aos='fade-up'>
               I'm a Front-End Developer from Chicago, IL. I have a serious
               passion for web development and am always looking to push myself.
@@ -27,6 +27,10 @@ export default function About() {
               skills. My interests for the web include animations, custom
               layouts and creating dynamic content. Let's get in touch and make
               exciting, creative projects together.
+            </p>
+            <h3 data-aos='fade-up'>What do I do?</h3>
+            <p data-aos='fade-up'>
+            I combine research, user flows, wireframing, prototyping, storytelling, and visual design & development to transform tricky problems into engaging solutions. With a background in Front-End Development, I understand the constraints of the web and am able to design and build around them effectively.
             </p>
             {/* <div className='icon-box' data-aos='fade-up'>
               <i className='fab fa-react'></i>

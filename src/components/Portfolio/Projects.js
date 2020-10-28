@@ -6,9 +6,9 @@ class Projects extends Component {
     projects: [
       {
         id: 1,
-        title: 'Restaurant',
+        title: 'A-BAITS-AND-TACKLE',
         des: 'This app was created using React JS along with custom Sass',
-        img: 'assets/img/portfolio/food1.jpg',
+        img: '//external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.gameandfishmag.com%2Ffiles%2F2014%2F03%2FGA-Bass-Forecast.jpg&f=1&nofb=1',
       },
       {
         id: 2,
@@ -18,23 +18,25 @@ class Projects extends Component {
       },
       {
         id: 3,
-        title: 'Blog',
+        title: 'Restaurant',
         des: 'This app was created using React JS along with custom Sass',
-        img: 'assets/img/portfolio/barber1.jpg',
+        img: 'assets/img/portfolio/food1.jpg',
       },
       {
         id: 4,
-        title: 'Realestate',
-        des: 'This app was created using React JS along with custom Sass',
-        soon: 'Coming Soon!',
-        img: 'assets/img/portfolio/barber1.jpg',
-      },
-      {
-        id: 5,
         title: 'Barbershop',
         des: 'This app was created using React JS along with custom Sass',
         soon: 'Coming Soon!',
+        img: 'assets/img/portfolio/barber1.jpg',
+        view:'https://joesbarbershop.herokuapp.com/'
+      },
+      {
+        id: 5,
+        title: 'BIKE SHOP',
+        des: 'This app was created using React JS along with custom Sass',
+        soon: 'Coming Soon!',
         img: 'assets/img/portfolio/food1.jpg',
+        view:'https://mikesbikes.herokuapp.com/'
       },
       {
         id: 6,
@@ -42,17 +44,14 @@ class Projects extends Component {
         des: 'This app was created using React JS along with custom Sass',
         soon: 'Coming Soon!',
         img: 'assets/img/portfolio/mucelcar1.jpg',
+        view:'https://teckco.herokuapp.com/'
       },
     ],
   };
   render() {
     const { projects } = this.state;
     return (
-      <section
-        id='portfolio'
-        className='portfolio section-bg'
-        style={{ height: '100vh', backgroundColor: '#fff' }}
-      >
+      
         <div className='container'>
           <div className='section-title' data-aos='fade-up'>
             <h2>Portfolio</h2>
@@ -66,11 +65,11 @@ class Projects extends Component {
                 des={project.des}
                 soon={project.soon}
                 image={project.img}
+                view={project.view}
               />
             ))}
           </div>
         </div>
-      </section>
     );
   }
 }

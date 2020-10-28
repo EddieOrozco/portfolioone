@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Header from './components/layout/Header';
-import Jumbo from './components/pages/Jumbo';
+import Navbar from './components/layout/Navbar';
+import Header from './components/pages/Header';
 import About from './components/pages/About';
 import Projects from './components/Portfolio/Projects';
 // import Contact from './components/Contact';
@@ -11,8 +12,8 @@ class App extends Component {
   render() {
     return (
       <div>
+        <Navbar />
         <Header />
-        <Jumbo />
         <About />
         <Projects />
         {/* <Contact /> */}

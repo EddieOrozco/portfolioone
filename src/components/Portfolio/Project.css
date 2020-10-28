@@ -1,0 +1,9 @@
+.prj-btn {
+  background-color: transparent;
+  border: #fff solid 1px;
+}
+
+.prj-btn:hover {
+  background-color: #1bac91;
+  border: #fff solid 1px;
+}

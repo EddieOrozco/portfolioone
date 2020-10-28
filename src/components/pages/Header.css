@@ -1,0 +1,9 @@
+#hero {
+  height: 100vh;
+  /* background-image: url('https://s25227.pcdn.co/wp-content/uploads/2017/08/Screenshot-2017-09-12-15.17.23.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  background: '#ffffff';
+  text-align: 'center';
+}
