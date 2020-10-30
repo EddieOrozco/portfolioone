@@ -1,0 +1,12 @@
+.bx {
+  color: #1bac91;
+}
+
+.bx:hover {
+  color: #fff;
+}
+
+.envelope {
+  padding-left: 3px;
+  color: #1bac91;
+}

@@ -9,7 +9,7 @@ class Header extends Component {
         className='d-flex flex-column justify-content-center align-items-center'
       >
         <div className='container text-center text-md-left' data-aos='fade-up'>
-          <h1  style={nameFontSize}>Hi, I'M Eddie </h1>
+          <h1  >Hi, I'M Eddie </h1>
           <h2  style={headerTwoFont}> A FULLSTACK WEB DEVELOPER</h2>
           <h2> A UI/UX DESIGNER </h2>
           <div>
@@ -23,17 +23,8 @@ class Header extends Component {
   }
 }
 
-// const mainBackground = {
-//   background:'#ffffff',
-//   textAlign: 'center'
-// }
-
 const textDecoration = {
   textDecoration:'none'
-}
-
-const nameFontSize = {
-  fontSize: '68px'
 }
 
 const headerTwoFont = {

@@ -8,10 +8,8 @@ const Navbar = () => {
           <h1 className='text-light'>
             <a href='index.html'><strong style={textColor}>ETD!</strong></a>
           </h1>
-          {/* <!-- Uncomment below if you prefer to use an image logo --> */}
-          {/* <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" className="img-fluid"></a>--> */}
         </div>
-        <nav className='nav-menu d-none d-lg-block'>
+        <nav className='nav-menu d-none d-lg-block navbar navbar-expand-lg navbar-light'>
           <ul>
             <li className='active'>
               <a style={textDecoration} href='#hero'>Home</a>
@@ -26,11 +24,7 @@ const Navbar = () => {
               <a style={textDecoration} href='#contact'>Contact</a>
             </li>
           </ul>
-          
         </nav>
-        
-        {/* <!-- .nav-menu --> */}
-        
       </div>
     </header>
   );

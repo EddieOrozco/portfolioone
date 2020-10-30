@@ -1,8 +1,10 @@
 import React from 'react';
+import './About.css'
 
-export default function About() {
+function About() {
   return (
-    <section id='about' className='about' style={{ height: '100vh' }}>
+    
+    <section id='about' className='about' >
       <div className='container'>
         <div className='section-title' data-aos='fade-up'>
           <h2>About</h2>
@@ -22,36 +24,16 @@ export default function About() {
               I'm a Front-End Developer from Chicago, IL. I have a serious
               passion for web development and am always looking to push myself.
               As a former logistics coordinator I know what it takes to complete
-              a task. At this time I am currently looking for a position as a
-              web developer, with a company that is willing to help me grow my
+              a task. At this time I am currently looking for a position as a</p>
+              {/* <p>web developer, with a company that is willing to help me grow my
               skills. My interests for the web include animations, custom
               layouts and creating dynamic content. Let's get in touch and make
               exciting, creative projects together.
-            </p>
-            <h3 data-aos='fade-up'>What do I do?</h3>
+            </p> */}
+             <h3 data-aos='fade-up'>What do I do?</h3>
             <p data-aos='fade-up'>
-            I combine research, user flows, wireframing, prototyping, storytelling, and visual design & development to transform tricky problems into engaging solutions. With a background in Front-End Development, I understand the constraints of the web and am able to design and build around them effectively.
+            I combine research, user flows, wireframing, prototyping, storytelling, and visual design & development to transform tricky problems into engaging solutions. With a background in Front-End Development, 
             </p>
-            {/* <div className='icon-box' data-aos='fade-up'>
-              <i className='fab fa-react'></i>
-              <h4>Dynamic</h4>
-              <p>
-                Websites don't have to be static, I love making pages come to
-                life.
-              </p>
-            </div>
-
-            <div className='icon-box' data-aos='fade-up' data-aos-delay='100'>
-              <i className='fas fa-mobile-alt'></i>
-              <h4>Responsive</h4>
-              <p>My layouts will work on any device, big or small.</p>
-            </div> */}
-
-            {/* <div className='icon-box' data-aos='fade-up' data-aos-delay='200'>
-              <i className='fas fa-paint-brush'></i>
-              <h4>Intuitive</h4>
-              <p>Strong preference for easy to use, intuitive UX/UI.</p>
-            </div> */}
           </div>
         </div>
         <div className='row'>
@@ -105,5 +87,13 @@ export default function About() {
         </div>
       </div>
     </section>
+    
   );
 }
+
+
+// const sectionMargin = {
+//   marginBottom:'500px'
+// }
+
+export default About;

@@ -1,4 +1,9 @@
 import React from 'react';
+import './Footer.css'
+import {
+  BrowserRouter as Router,
+  Link
+} from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -6,7 +11,7 @@ export default function Footer() {
       <div className='container'>
         <div className='copyright'>
           <strong>
-            &copy; <span>2020</span> <span>Eduardo Orozco</span>
+            &copy; <span>2020</span> <span>EddTheDev</span>
           </strong>
         </div>
         <div
@@ -17,20 +22,14 @@ export default function Footer() {
             padding: '20px 0 0 0',
           }}
         >
-          <a href='#' className='twitter'>
-            <i className='bx bxl-twitter'></i>
-          </a>
-          <a href='#' className='facebook'>
-            <i className='bx bxl-facebook'></i>
-          </a>
-          <a href='#' className='instagram'>
-            <i className='bx bxl-instagram'></i>
-          </a>
-          <a href='#' className='google-plus'>
-            <i className='bx bxl-skype'></i>
-          </a>
-          <a href='#' className='linkedin'>
+          <a href='https://www.linkedin.com/in/eduardoorozco23' target='_blank' className='linkedin'>
             <i className='bx bxl-linkedin'></i>
+          </a>
+          <a href='https://github.com/EddieOrozco/portfolioone' target='_blank'  className='github'>
+            <i className='bx bxl-github'></i>
+          </a>
+          <a href='https://www.orozcoe230@gmail.com' target='_blank'  className='envelope' >
+            <i  className='far fa-envelope'></i>
           </a>
         </div>
       </div>
