@@ -1,0 +1,29 @@
+.logo-main {
+  color: #fff;
+  border: 2px solid #1bac91;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 1.5rem;
+}
+.berger {
+  background-color: #fff;
+  text-decoration: none;
+}
+.main-links {
+  margin: 0 2px;
+}
+@media (max-width: 991.98px) {
+  .main-links {
+    margin: 0 2px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .berger {
+    background-color: #1bac91;
+    padding: 0 5px 0 5px;
+  }
+  .bg-color {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+}

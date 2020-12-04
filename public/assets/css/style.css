@@ -124,14 +124,14 @@ h6 {
   display: block;
   position: relative;
   color: rgba(255, 255, 255, 0.8);
-  padding: 8px 0 12px 0;
+  /* padding: 8px 0 12px 0; */
   transition: 0.3s;
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
 }
 
 .nav-menu > ul > li + li {
-  margin-left: 30px;
+  /* margin-left: 20px; */
 }
 
 .nav-menu > ul > li > a:before {
@@ -848,7 +848,7 @@ section {
   right: 35px;
   /* border-bottom: 3px solid #fff;
   border-right: 3px solid #fff; */
-  transition: all 0.5s ease 0s;
+  transition: all 0.1s ease 0s;
   z-index: 9994;
 }
 

@@ -1,9 +1,6 @@
 import React from 'react';
-import './Footer.css'
-import {
-  BrowserRouter as Router,
-  Link
-} from "react-router-dom";
+import './Footer.css';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -22,14 +19,26 @@ export default function Footer() {
             padding: '20px 0 0 0',
           }}
         >
-          <a href='https://www.linkedin.com/in/eduardoorozco23' target='_blank' className='linkedin'>
+          <a
+            href='https://www.linkedin.com/in/eduardoorozco23'
+            target='_blank'
+            className='linkedin'
+          >
             <i className='bx bxl-linkedin'></i>
           </a>
-          <a href='https://github.com/EddieOrozco/portfolioone' target='_blank'  className='github'>
+          <a
+            href='https://github.com/EddieOrozco/portfolioone'
+            target='_blank'
+            className='github'
+          >
             <i className='bx bxl-github'></i>
           </a>
-          <a href='https://www.orozcoe230@gmail.com' target='_blank'  className='envelope' >
-            <i  className='far fa-envelope'></i>
+          <a
+            href='https://www.orozcoe230@gmail.com'
+            target='_blank'
+            className='envelope'
+          >
+            <i className='far fa-envelope'></i>
           </a>
         </div>
       </div>
