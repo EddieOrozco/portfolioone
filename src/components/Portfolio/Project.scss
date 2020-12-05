@@ -3,6 +3,11 @@
   background-color: #fff;
 }
 
+.portfolio .portfolio-wrap .portfolio-info p {
+  font-size: 12px;
+  padding: 0 10px;
+}
+
 .prj-btn {
   background-color: transparent;
   border: #fff solid 1px;
@@ -27,6 +32,9 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  .portfolio .portfolio-wrap .portfolio-info p {
+    font-size: 10px;
+  }
 }
 
 // Extra large devices (large desktops, 1200px and up)
