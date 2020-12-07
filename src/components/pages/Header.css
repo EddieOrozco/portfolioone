@@ -1,6 +1,14 @@
 #hero h1 {
   font-size: 68px;
 }
+#hero {
+  background: url('/assets/img/portfolio/chicagoImage.jpg') no-repeat center
+    center fixed;
+  background-color: white;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+}
 @media (max-width: 991.98px) {
   #hero h1 {
     font-size: 52px;

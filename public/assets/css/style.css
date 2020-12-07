@@ -1,10 +1,3 @@
-/**
-* Template Name: Maxim - v2.1.0
-* Template URL: https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -353,8 +346,8 @@ h6 {
 #hero {
   width: 100%;
   height: calc(100vh - 72px);
-  background: url('https://s25227.pcdn.co/wp-content/uploads/2017/08/Screenshot-2017-09-12-15.17.23.png')
-    no-repeat center center fixed;
+  background: url('img/portfolio/chicagoImage.jpg') no-repeat center center
+    fixed;
   background-color: white;
   background-size: cover;
   position: relative;

@@ -10,3 +10,7 @@
   padding-left: 3px;
   color: #1bac91;
 }
+
+.envelope:hover {
+  color: #fff;
+}
