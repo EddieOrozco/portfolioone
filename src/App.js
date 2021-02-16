@@ -5,8 +5,10 @@ import Navbar from './components/layout/Navbar';
 import Header from './components/pages/Header';
 import About from './components/pages/About';
 import Projects from './components/Portfolio/Projects';
-import Contact from './components/Contact';
+import moduleName from './components/pages/ContactMain';
+// import Contact from './components/Contact';
 import Footer from './components/layout/Footer';
+import ContactMain from './components/pages/ContactMain';
 
 class App extends Component {
   render() {
@@ -16,7 +18,8 @@ class App extends Component {
         <Header />
         <About />
         <Projects />
-        <Contact />
+        <ContactMain />
+        {/* <Contact /> */}
         <Footer />
       </div>
     );

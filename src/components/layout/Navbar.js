@@ -59,7 +59,7 @@ const Navbar = () => {
               <a
                 className='nav-link main-links'
                 style={textDecoration}
-                href='#contact'
+                href='#footer'
               >
                 Contact
               </a>

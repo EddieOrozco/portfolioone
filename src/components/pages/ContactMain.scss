@@ -1,22 +1,6 @@
-.section-bg {
-  margin: 50px 0 90px 0;
-  background-color: #fff;
-}
-
-.portfolio .portfolio-wrap .portfolio-info p {
-  font-size: 12px;
-  padding: 0 10px;
-}
-
-.prj-btn {
-  background-color: transparent;
-  border: #fff solid 1px;
-  color: #fff;
-}
-
-.prj-btn:hover {
-  background-color: #1bac91;
-  border: #fff solid 1px;
+.background {
+  // height: 250px;
+  margin-bottom: 5rem;
 }
 
 // Extra small devices (portrait phones, less than 576px)
@@ -25,6 +9,11 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 767.98px) {
+  .background {
+    // height: 250px;
+    margin-bottom: 3rem;
+    padding: 0 15px;
+  }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -33,9 +22,6 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  .portfolio .portfolio-wrap .portfolio-info p {
-    font-size: 10px;
-  }
 }
 
 // Extra large devices (large desktops, 1200px and up)

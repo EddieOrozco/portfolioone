@@ -8,7 +8,7 @@ export default function Footer() {
       <div className='container'>
         <div className='copyright'>
           <strong>
-            &copy; <span>2020</span> <span>EddTheDev</span>
+            &copy; <span>2021</span> <span>EddTheDev</span>
           </strong>
         </div>
         <div
